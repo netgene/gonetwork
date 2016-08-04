@@ -1,0 +1,12 @@
+package protomsg;
+
+//心跳请求    0X00010001
+message HeartReq
+{
+  required string    SID = 1;
+}
+//心跳回应    0X00010002
+message HeartRes
+{
+  required string    SID = 1;
+}
